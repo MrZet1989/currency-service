@@ -52,9 +52,9 @@ async function getCurrent() {
     // elementINR.classList.remove('top');
   }
 }
-// getCurrent();
+getCurrent();
 // обновления каждую секунду, но API обновляется раз в сутки
-setInterval(getCurrent(), 1000);
+// setInterval(getCurrent(), 1000);
 // функция конвертации валюты
 function convertValue() {
   console.log('Change');
