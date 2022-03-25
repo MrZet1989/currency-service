@@ -4,7 +4,7 @@
   "description": "Сервис курса валют",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
