@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const indexRouter = require('./routers/index');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.set('views', path.resolve(__dirname, 'views'));
 app.set('view engine', 'hbs');
