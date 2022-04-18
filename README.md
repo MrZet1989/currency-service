@@ -1,2 +1,3 @@
 # currency-service
-Сервис курса валют
+Сервис курса валют для использования внутри компании.
+https://curren-service.herokuapp.com/
